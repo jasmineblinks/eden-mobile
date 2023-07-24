@@ -1,3 +1,6 @@
+
+@import url('https://db.onlinewebfonts.com/c/bb018e64d01355748d8ddc53553850b9?family=Cerebri+Sans+Regular');
+
 html {
   background: #000;
 }
@@ -141,11 +144,17 @@ body {
 .getting_started>article {
   padding: 10px;
 }
-
+ 
 .getting_started #text-one {
-  color: #4B6358;
-  font-weight: normal;
-  font-family: Cerebri Sans;
+  color: var(--greys-tertiary, #4B6358);
+  font-family: 'Cerebri Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  width: 260px;
+
+  
 
 
 }
@@ -181,33 +190,26 @@ body {
   background: #03A84E;
   color: #fff;
   border: none;
-  margin-bottom: 20px;
+  display: block;
+  margin: auto auto 15px;
 
 
 }
 
-.tomorrow h3 {
-  color: rgb(0, 206, 58);
-}
-
-.tomorrow-item {
-  display: grid;
-  grid-template-columns: 130px 250px;
-}
-
-.tomorrow-item>div:first-child {
-  padding: 8px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.tomorrow-item>div:last-child {
-  background: rgb(187, 210, 220);
-  padding: 8px;
-  border-radius: 10px;
-}
 
 footer {
+  margin-bottom: 20px;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
+
+}
+.dark-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  width: 150px;
+  height: 5px;
+  border-radius: 10px;
+  margin: auto auto 20px;
 }
