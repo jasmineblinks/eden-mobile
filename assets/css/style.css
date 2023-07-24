@@ -213,3 +213,218 @@ footer {
   border-radius: 10px;
   margin: auto auto 20px;
 }
+ /* end of index css  */
+
+
+
+
+/* sample-two css  */
+
+
+.multi-form{
+  margin: 1.5rem 0;
+  display: grid;
+  grid-template-columns: 90px 100px 100px 80px;
+  place-items: center;
+  position: relative;
+}
+
+.counter {
+  position: absolute;
+  height: 5px;
+  width: 96%;
+  background-color: #E2E9E6;
+  ;
+  top: 0;
+  transform: translate(5px, 18px);
+}
+
+.multi-form_main {
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.multi-form_text {
+  display: block;
+  margin-top: 5px;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.one {
+  align-items: flex-start;
+}
+
+.four {
+  align-items: flex-end;
+}
+
+.multi-form_btn {
+  border-radius: 50%;
+  border: none;
+  height: 30px;
+  width: 30px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  background-color:#E2E9E6;
+  ;
+}
+
+
+.header-section {
+  border-radius: 10px;
+  margin-left: 1.5rem;
+ 
+}
+
+.header-section .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-align: left;
+  color:  #0F241B;
+  
+}
+
+.header-section .text {
+  font-size: 1rem;
+  text-align: left;
+  color: #4B6358;
+  ;
+}
+
+.main {
+  display: grid;
+  /* border: 1px solid; */
+  padding: 0.5rem 0;
+  grid-gap: 2rem;
+}
+.countryInput {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  justify-content: center;
+  margin: auto auto auto 20px;
+  padding: 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+}
+ .phaseone{
+  border: 1px solid  #03A84E;
+  background-color: #FAFFFC;
+}
+.phasetwo{
+  border: 1px solid #E2E9E6;
+}
+
+.countryFigure {
+  height: 30px;
+  width: 30px;
+}
+.countryFigure img {
+  height: 100%;
+  width: 100%;
+}
+
+.country_name {
+  height: 100%;
+  margin-left: 10px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.tick {
+  display: block;
+  height: 20px;
+  margin-left: auto;
+}
+
+.tick img {
+  height: 20px;
+}
+
+.state_main,
+.state_country_main {
+  border-bottom: 1px solid black;
+  display: flex;
+}
+
+.state_title,
+.state_country_title {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 20px;
+  color: #4B6358;
+}
+
+.state_country_main::after, .state_main::after {
+  content: url("./assets/down-svgrepo-com.svg");
+  display: block;
+  margin-right: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  border: none;
+}
+.state_country_select, .state_select {
+  width: 100%;
+  padding: 0.5rem 1px;
+  appearance: none;
+  outline: none;
+  border: none;
+}
+
+.state__country_option, .state__option {
+  padding: 1rem;
+}
+
+.emptytick {
+  border: 1px solid gray;
+  display: block;
+  height: 20px;
+  width: 20px;
+  margin-left: auto;
+  border-radius: 50%;
+}
+
+.location {
+  margin-bottom: 2rem;
+}
+
+.location_link {
+  border-bottom: 1px solid;
+}
+
+.location_link a {
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+
+.next_btn {
+  border: 1px solid;
+  padding: 1rem 0;
+  width: 100%;
+  border-radius: 7px;
+  background-color: rgb(42, 193, 42);
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
