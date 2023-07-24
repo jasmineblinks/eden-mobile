@@ -1,5 +1,4 @@
-
-@import url('https://db.onlinewebfonts.com/c/bb018e64d01355748d8ddc53553850b9?family=Cerebri+Sans+Regular');
+@import url("https://db.onlinewebfonts.com/c/bb018e64d01355748d8ddc53553850b9?family=Cerebri+Sans+Regular");
 
 html {
   background: #000;
@@ -63,7 +62,7 @@ body {
   align-items: center;
 }
 
-.schedule>button {
+.schedule > button {
   padding: 10px 20px;
   border-radius: 20px;
   outline: none;
@@ -88,7 +87,7 @@ body {
   padding-left: 20px;
 }
 
-.discount__price-item>span {
+.discount__price-item > span {
   text-decoration: line-through;
 }
 
@@ -138,25 +137,21 @@ body {
   border-radius: 10px;
   width: 350px;
 
-  background: #FFF8E1;
+  background: #fff8e1;
 }
 
-.getting_started>article {
+.getting_started > article {
   padding: 10px;
 }
- 
+
 .getting_started #text-one {
-  color: var(--greys-tertiary, #4B6358);
-  font-family: 'Cerebri Sans';
+  color: var(--greys-tertiary, #4b6358);
+  font-family: "Cerebri Sans";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; 
+  line-height: 24px;
   width: 260px;
-
-  
-
-
 }
 
 .getting_started-item,
@@ -176,7 +171,7 @@ body {
 }
 
 .getting_started-item a {
-  color: #03A84E;
+  color: #03a84e;
 }
 
 .btn-started {
@@ -187,23 +182,21 @@ body {
   padding: 12px 16px 12px 16px;
   border-radius: 32px;
   gap: 8px;
-  background: #03A84E;
+  background: #03a84e;
   color: #fff;
   border: none;
   display: block;
   margin: auto auto 15px;
-
-
 }
-
 
 footer {
+  margin-top: 30px;
   margin-bottom: 20px;
   display: flex;
-  gap: 1rem;
 
+  gap: 1rem;
 }
-.dark-line{
+.dark-line {
   display: flex;
   justify-content: center;
   align-items: center;
