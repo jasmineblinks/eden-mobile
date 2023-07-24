@@ -174,9 +174,9 @@ body {
   color: #03a84e;
 }
 
-.btn-started {
+.btn-link {
   width: 279px;
-  height: 48px;
+  height: 25px;
   top: 604px;
   left: 48px;
   padding: 12px 16px 12px 16px;
@@ -184,10 +184,17 @@ body {
   gap: 8px;
   background: #03a84e;
   color: #fff;
+  text-decoration: none;
   border: none;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto auto 15px;
 }
+/* .btn-link {
+  color: #fff;
+  text-decoration: none;
+} */
 
 footer {
   margin-top: 30px;
