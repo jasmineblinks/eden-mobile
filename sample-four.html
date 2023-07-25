@@ -1,108 +1,164 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://db.onlinewebfonts.com/c/bb018e64d01355748d8ddc53553850b9?family=Cerebri+Sans+Regular"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cerebri Sans:wght@400;500&display=swap" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <title>Mobile</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/four.css" />
+    <title>Document</title>
 </head>
 
 <body>
-  <section class="main">
-    <div class="container">
-      <!-- section 1 -->
-      <header class="profile box">
-        <a href="index.html"><img class="profile-icon" src="./assets/img/arrow.svg" alt="profile_image" /></a>
-      </header>
-      <!-- end of section 1  -->
+    <div class="wrapper">
+        <div class="container">
+            <header>
+                <img src="./images/icon/arrow-back.png" alt="go back arrow-back" class="arrow-back" />
+                <p class="header-text">Customise your plan</p>
+            </header>
+            <!-- registration flow start here  -->
+            <section class="registration">
+                <div class="registration__line"></div>
+                <!-- <div class="registration__apple"></div> -->
+                <div class="registration__greenline"></div>
+                <div class="registration_checked">
+                    <img src="./images/icon/checked.png" alt="checked-icon" class="registration__checked-img" />
+                    <p>Sign up</p>
+                </div>
+                <div class="registration__icon-2">
+                    <img src="./images/icon/two.png" alt="two-icon" class="registration__checked-img" />
+                    <p>Customise</p>
+                </div>
+                <div class="registration__icon-3">
+                    <img src="./images/icon/three.png" alt="three-icon" class="registration__checked-img" />
+                    <p>Play</p>
+                </div>
+                <div class="registration__icon-4">
+                    <img src="./images/icon/apple-bck.svg" alt="" class="registration__checked-img">
+                </div>
+            </section>
+            <!-- review section start here  -->
+            <section class="review">
+                <h3 style="font-size:20px;font-weight:700">What chores would you like us to take off your hands?</h2>
+                    <p>
+                        Select at least one and we’ll create a personalized plan for you.
+                    </p>
+            </section>
+            <!-- plan section start here  -->
+            <section class="plan">
+                <div class="plan__content">
+                    <div class=" phaseone">
+                        <div class="countryInput">
+                            <figure class="countryFigure">
+                                <img src="./images/icon/userone.svg" alt="" />
+                            </figure>
+                            <p class="country_name">Food</p>
+
+                            <span class="tick"><img src="./assets/img/tick.svg" alt="" /></span>
+                        </div>
+                        <p class="country_title">Get chef cooked meals delivered on schedule, and never worry about
+                            market runs or meal prep. </p>
+                        <div class="countryInput">
+                            <figure class="countryFigure">
+                                <img src="./images/icon/book.svg" alt="" />
+                            </figure>
 
 
-      
-      <section class="multi-form">
-        
-        <div class="counter"></div>
-        
-        <div class="one multi-form_main">
-          <button class="multi-form_btn" ><img src="./assets/img/one.svg" alt=""></button>
-          <span class="multi-form_text">Sign up</span>
+                            <span class="tick">View food menu<img src="./images/icon/arrow-right.svg" alt="" /></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plan__content">
+                    <div class=" phaseone">
+                        <div class="countryInput">
+                            <figure class="countryFigure">
+                                <img src="./images/icon/lipstick.svg" alt="" />
+                            </figure>
+                            <p class="country_name">Beauty</p>
+
+                            <span class="tick"><img src="./assets/img/tick.svg" alt="" /></span>
+                        </div>
+                        <p class="country_title">Get spa quality treatments at your fingertips.</p>
+                        <div class="countryInput">
+                            <figure class="countryFigure">
+                                <img src="./images/icon/book.svg" alt="" />
+                            </figure>
+
+
+                            <span class="tick">View beauty options<img src="./images/icon/arrow-right.svg"
+                                    alt="" /></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="plan__content">
+                    <div class="phasetwo">
+                        <div class="countryInput">
+                            <figure class="countryFigure">
+                                <img src="./images/icon/laundry.svg" alt="" />
+                            </figure>
+                            <p class="country_name">Laundry</p>
+
+                            <span class="emptytick"></span>
+                        </div>
+                        <p class="country_title">Get more rest time, and leave the scrubbing to professional cleaners
+                            you can trust.</p>
+                        <div class="countryInput">
+                            <figure class="countryFigure">
+                                <img src="./images/icon/book.svg" alt="" />
+                            </figure>
+
+
+                            <span class="tick">View laundry types<img src="./images/icon/arrow-right.svg"
+                                    alt="" /></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="plan__content">
+                    <div class="phasetwo">
+                        <div class="countryInput">
+                            <figure class="countryFigure">
+                                <img src="./images/icon/house.svg" alt="" />
+                            </figure>
+                            <p class="country_name">Cleaning</p>
+
+                            <span class="emptytick"></span>
+                        </div>
+                        <p class="country_title">Get more rest time, and leave the scrubbing to professional cleaners you can trust.</p>
+                        <div class="countryInput">
+                            <figure class="countryFigure">
+                                <img src="./images/icon/book.svg" alt="" />
+                            </figure>
+
+
+                            <span class="tick">View cleaning types<img src="./images/icon/arrow-right.svg"
+                                    alt="" /></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+            </section>
+
+            <div>
+                
+
+                <a class="btn-link" href="sample-four.html">Review your plan</a>
+            </div>
+            <div class="dark-line"></div>
+            
         </div>
-        <div class="two multi-form_main">
-          <button class="multi-form_btn">2</button>
-          <span class="multi-form_text">Customize</span>
-        </div>
-        <div class="three multi-form_main">
-          <button class="multi-form_btn">3</button>
-          <span class="multi-form_text">Pay</span>
-        </div>
-        <div class="four multi-form_main">
-          <button class="multi-form_btn"><img src="./assets/img/apple.svg" alt=""></button>
-          <span class="multi-form_text hide">end</span>
-        </div>
-      </section>
-      <!-- end of multistep form  -->
-
-      <section class="header-section box">
-        <h1 class="title">First, where do you live?</h1>
-        <p class="text">Select the country and state you live in.</p>
-      </section>
-
-      <!-- end of header section  -->
-
-      <main class="main">
-        <div class="countryInput phaseone">
-          <figure class="countryFigure">
-            <img src="./assets/img/5327538.png" alt="" />
-          </figure>
-          <p class="country_name">Nigeria</p>
-          <span class="tick"><img src="./assets/img/tick.svg" alt="" /></span>
-        </div>
-
-        <div class="state_tag">
-          <h1 class="state_title">State</h1>
-          <div>
-            <select name="" id="" style="width:300px; border: none; margin-left: 20px;">
-              <option value="">Lagos</option>
-              <option value="">Kenya</option>
-            </select>
-          </div>
-          <!-- <div class="state_main">
-              <select name="" id="" class="state_select">
-                <option value="lagos" class="state__option">Lagos</option>
-                <option value="kenya" class="state__option">Kenya</option>
-              </select>
-            </div> -->
-
-          <hr style="width: 88%; height: 1px; background: lightgrey; border: none" />
-        </div>
-
-        <div class="countryInput phasetwo">
-          <figure class="countryFigure">
-            <img src="./assets/img/kenya.png" alt="" />
-          </figure>
-          <p class="country_name">Kenya</p>
-          <span class="emptytick"></span>
-        </div>
-
-        <div>
-          <p class="location">
-            Can't find your location?
-            <span class="location_link"><a href="">Click here</a></span>
-          </p>
-
-          <a class="btn-link" href="sample-two.html">Next</a>
-        </div>
-      </main>
-
-
-
-      <!-- main end -->
-      <div class="dark-line"></div>
     </div>
-  </section>
 </body>
-<script src="./assets/javascript/app.js"></script>
 
 </html>
